@@ -18,7 +18,7 @@ SCNP Modeling/
 ├── requirements_modeling.txt        # packages for 2. modeling
 ├── imgs/                            # shared images and plot outputs
 │
-├── 1. visualization/                # UMAP, Kratky plots, dimensionality reduction
+├── 1. visualization/                # Size and shape visualization, UMAP, Kratky plots
 │   ├── .venv_visualization/         # Python 3.9 virtual environment
 │   ├── data/                        # raw and processed data files
 │   ├── notebooks/                   # Jupyter notebooks
@@ -29,7 +29,7 @@ SCNP Modeling/
 │           ├── __init__.py
 │           └── utils.py             # load_data(), save_figure()
 │
-└── 2. modeling/                     # XGBoost, SHAP, ML pipeline
+└── 2. modeling/                     # ML pipeline, SHAP analysis
     ├── .venv_models/                # Python 3.13 virtual environment
     ├── data/                        # raw and processed data files
     ├── models/                      # saved trained models (.pkl)
